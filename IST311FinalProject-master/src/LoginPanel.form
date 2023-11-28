@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LoginPanel">
+  <grid id="27dc6" binding="loginPanel" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+    <margin top="3" left="3" bottom="3" right="3"/>
+    <constraints>
+      <xy x="20" y="20" width="756" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16052671"/>
+      <enabled value="false"/>
+      <font name="Bradley Hand ITC" style="3"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="768f9" class="javax.swing.JButton" binding="submitButton">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6360835"/>
+          <font name="Bradley Hand ITC" size="26" style="3"/>
+          <foreground color="-8576136"/>
+          <hideActionText value="false"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="add52" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="8ea91" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono" size="22" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3f14d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Castellar" size="20" style="1"/>
+          <foreground color="-1"/>
+          <labelFor value="8ea91"/>
+          <text value="Password:"/>
+        </properties>
+      </component>
+      <component id="73647" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13452523"/>
+          <font name="Viner Hand ITC" size="72" style="3"/>
+          <foreground color="-13452523"/>
+          <text value="Archive CO."/>
+        </properties>
+      </component>
+      <component id="a0dc" class="javax.swing.JTextField" binding="userIDField">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono" size="22" style="1"/>
+          <horizontalAlignment value="2"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4af8c" class="javax.swing.JLabel" binding="userIDLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Castellar" size="20" style="1"/>
+          <foreground color="-1"/>
+          <labelFor value="a0dc"/>
+          <text value="Username: "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,5 @@
+<!ELEMENT managerRecords (Manager*)>
+<!ELEMENT Manager (Id,username,password)>
+<!ELEMENT  Id (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>

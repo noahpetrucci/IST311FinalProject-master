@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE managerRecords SYSTEM "Manager.dtd">
+<managerRecords>
+    <Manager>
+        <Id>1</Id>
+        <username>steve</username>
+        <password>jobs</password>
+    </Manager>
+    <Manager>
+        <Id>2</Id>
+        <username>prez</username>
+        <password>password6</password>
+    </Manager>
+    <Manager>
+        <Id>3</Id>
+        <username>datdude555</username>
+        <password>password555</password>
+    </Manager>
+</managerRecords>

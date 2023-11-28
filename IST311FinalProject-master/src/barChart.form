@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="barChart">
+  <grid id="27dc6" binding="barChart" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14791126"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="a9a68">
+        <constraints>
+          <grid row="3" column="0" row-span="4" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="9b56b" class="javax.swing.JSlider" binding="pantsSlider">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3252240"/>
+          <foreground color="-4491991"/>
+        </properties>
+      </component>
+      <component id="80a84" class="javax.swing.JSlider" binding="hatSlider">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4491991"/>
+          <foreground color="-3252240"/>
+        </properties>
+      </component>
+      <component id="eeaf3" class="javax.swing.JSlider" binding="fagranceSlider">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3252240"/>
+          <foreground color="-4491991"/>
+        </properties>
+      </component>
+      <component id="c722e" class="javax.swing.JSlider" binding="topSlider">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3252240"/>
+          <foreground color="-4491991"/>
+        </properties>
+      </component>
+      <component id="bd18c" class="javax.swing.JSlider" binding="slider2" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4491991"/>
+          <foreground color="-3252240"/>
+        </properties>
+      </component>
+      <component id="3bb38" class="javax.swing.JSlider" binding="shoesSlider">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4491991"/>
+          <foreground color="-3252240"/>
+        </properties>
+      </component>
+      <component id="bdb71" class="javax.swing.JTextField" binding="Shirts">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14791126"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-1025"/>
+          <horizontalAlignment value="4"/>
+          <text value="Shirts: "/>
+        </properties>
+      </component>
+      <component id="a529c" class="javax.swing.JTextField" binding="Pants">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14791126"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-1025"/>
+          <horizontalAlignment value="4"/>
+          <text value="Pants: "/>
+        </properties>
+      </component>
+      <component id="af7dc" class="javax.swing.JTextField" binding="Hats">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14791126"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-1025"/>
+          <horizontalAlignment value="4"/>
+          <text value="Hats: "/>
+        </properties>
+      </component>
+      <component id="82705" class="javax.swing.JTextField" binding="Fragrance">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14791126"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-1025"/>
+          <horizontalAlignment value="4"/>
+          <text value="Fragrances: "/>
+        </properties>
+      </component>
+      <component id="c591e" class="javax.swing.JTextField" binding="Tops">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14791126"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-1025"/>
+          <horizontalAlignment value="4"/>
+          <text value="Tops: "/>
+        </properties>
+      </component>
+      <component id="1e9d0" class="javax.swing.JTextField" binding="Shoes">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14791126"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-1025"/>
+          <horizontalAlignment value="4"/>
+          <text value="Shoes: "/>
+        </properties>
+      </component>
+      <component id="65ea7" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="16" style="1"/>
+          <foreground color="-1025"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
